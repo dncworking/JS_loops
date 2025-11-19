@@ -1,6 +1,6 @@
 "use strict";
 
-function numberJoinerFancy(start, end, separator = "_") {
+function numberJoinerFancy(start, end, separator) {
   let result = "";
   let current = start;
   while (current <= end) {
